@@ -208,13 +208,60 @@
 // ---------------------------Chapter 12-13 -------------
 
 //Task 1
-var char = prompt('Enter a character:')
-if (char>=0 || char<=9) {
-    document.write('The input character is number')
-}
-else if ((char>='a' && char<='z')) {
-    document.write('The input character is lower case')
-}
-else if (char>=A && char<=Z) {
-    document.write('The input character is uuper case')
-}
+// var char = prompt('Enter a character:')
+// if (char>=0 || char<=9) {
+//     document.write('The input character is number')
+// }
+// else if ((char>='a' && char<='z')) {
+//     document.write('The input character is lower case')
+// }
+// else if (char>=A && char<=Z) {
+//     document.write('The input character is uuper case')
+// }
+
+//Task 2
+// var num1=+prompt('Enter integer 1')
+// var num2=+prompt('Enter integer 2')
+// if (num1>num2) {
+//     document.write('1st input integer is greater')
+// }
+// else if (num1<num2) {
+//     document.write('2nd input integer is greater')
+// }
+// else{
+//     document.write('Both input integers are equal')
+// }
+
+//Task 3
+// var num=+prompt('Enter any number:')
+// if (num>0) {
+//     document.write('The input number is positive')
+// }
+// else if (num<0) {
+//     document.write('The input number is negative')
+// }
+// else{
+//     document.write('The input number is zero')
+// }
+
+//Task 4
+// var char=prompt("Enter an alphabet:")
+// if (char=='a' || char=='e' || char=='i' || char=='o' || char=='u') {
+//     document.write('True')
+// }
+// else{
+//     document.write('False')
+// }
+
+// -------------------------- Chapter 17-20 --------------
+
+//Task 1
+// var arr = [[],[]];
+
+//Task 2
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+
+//Task 3
+// for(var b=1; b<11;b++){
+//     document.write(b+'<br>')
+// }
