@@ -253,6 +253,44 @@
 //     document.write('False')
 // }
 
+// ------------------------- Chapter 14-16 --------------
+
+//Task 1
+// var arr =[]
+
+//Task 3
+// var arr=['a','b','c']
+
+//Task 4
+// var arr=[1,2,3]
+
+//Task 5
+// var arr=[true,false]
+
+//Task 6
+// var arr=['a',1,true]
+
+//Task 7
+// var arr =['SSC','HSC','BCS'];
+// document.write('1) '+arr[0] +'<br>');
+// document.write('2) '+arr[1] +'<br>');
+// document.write('3) '+arr[2] +'<br>');
+
+//Task 8
+// var names =['Ali','Ahmed','Omer']
+// var scores =[320,230,480]
+// document.write('Score of '+names[0]+' is '+scores[0]+'. Percentage: '+(scores[0]/500)*100+'% <br>' )
+// document.write('Score of '+names[1]+' is '+scores[1]+'. Percentage: '+(scores[1]/500)*100+'% <br>' )
+// document.write('Score of '+names[2]+' is '+scores[2]+'. Percentage: '+(scores[2]/500)*100+'% <br>' )
+
+//Task 10
+// var arr = [320,230,480,120]
+// document.write('Scores of Students : '+arr[0]+','+arr[1]+','+arr[2]+','+arr[3]+'<br>')
+// arr.sort();
+// document.write('Ordered Scores of Students : '+arr[0]+','+arr[1]+','+arr[2]+','+arr[3])
+
+
+
 // -------------------------- Chapter 17-20 --------------
 
 //Task 1
@@ -265,3 +303,41 @@
 // for(var b=1; b<11;b++){
 //     document.write(b+'<br>')
 // }
+
+//Task 5
+// var fruits = ['apple','banana','mango','orange','strawberry']
+// for(var i=0;i<fruits.length;i++){
+//     document.write(fruits[i]+'<br>')
+// }
+// for(var i=0;i<fruits.length;i++){
+//     document.write('<br>Element at index '+i+' is '+fruits[i])
+// }
+
+//Task 8
+// var A=[24,53,78,91,12]
+// document.write('Array items: '+A[0]+','+A[1]+','+A[2]+','+A[3]+','+A[4])
+// var largestNum=A[0]
+// for(var i=0;i<A.length;i++){
+//     if (A[i]>largestNum) {
+//         largestNum=A[i]
+//     }
+// }
+// document.write('<br>The largest number is '+largestNum)
+
+//Task 9
+// var A=[24,53,78,91,12]
+// document.write('Array items: '+A[0]+','+A[1]+','+A[2]+','+A[3]+','+A[4])
+// var smallestNum=A[0]
+// for(var i=0;i<A.length;i++){
+//     if (A[i]<smallestNum) {
+//         smallestNum=A[i]
+//     }
+// }
+// document.write('<br>The smallest number is '+smallestNum)
+
+//Task 10
+// for(var i=0;i<=100;i+5){
+//     document.write(i+',')
+// }
+
+
